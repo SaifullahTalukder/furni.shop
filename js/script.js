@@ -49,4 +49,44 @@ $(function(){
         scrollTop: 0
       },500);
     });
+    // client part slider
+    $(".client_slider").slick({
+      centerMode: true,
+      slidesToShow: 1,
+      centerPadding: 0,
+      arrows: false,
+      asNavFor: ".client_content_slider",
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            slidesToShow: 1,
+            vertical: false,
+            verticalSwiping: false,
+          },
+        },
+      ],
+    });
+  
+    $(".client_content_slider").slick({
+      centerMode: true,
+      slidesToShow: 1,
+      vertical: true,
+      verticalSwiping: true,
+      centerPadding: 0,
+      prevArrow:
+      '<i class="fas fa-arrow-left right_arrow client_slider_arrow"></i>',
+    nextArrow:
+      '<i class="fas fa-arrow-right left_arrow client_slider_arrow"></i>',
+      asNavFor: ".client_slider",
+      responsive: [
+        {
+          breakpoint: 576,
+          settings: {
+            arrows: false,
+          },
+        },
+      ],
+    });
 })

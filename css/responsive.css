@@ -1,9 +1,9 @@
 @media (min-width:1900px) {
     .hero_slide_arrow {
-        right: 260px;
+        right: -19px;
     }
     .hero_arrow_dots {
-        left: 85%;
+        left: 100%;
     }
 }
 
@@ -54,9 +54,6 @@
     }
     .about_part_header {
         padding-bottom: 14px;
-    }
-    .hero_slide_arrow {
-        right: 9px;
     }
     .testimonial_content_wrapper p {
         font-size: 21px;
@@ -229,9 +226,6 @@
         top: 10px;
         left: 8px;
     }
-    .hero_slide_arrow {
-        right: 11px;
-    }
     .arrow_prev {
         top: 50px;
     }
@@ -239,8 +233,7 @@
         top: 80px;
     }
     .hero_arrow_dots {
-        bottom: 220px;
-        left: 95%;
+        bottom: 125px;
     }
     #hero_part .swiper-pagination-total::after {
         height: 23px;
@@ -270,7 +263,16 @@
         margin-top: 20px;
         margin-right: 10px;
     }
+    .client_slider_arrow {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        bottom: -61px;
+    }
+    .right_arrow {
+        left: 1px;
     
+    }
 }
 @media (max-width:767.98px){
     .testimonial_header .overlay {
@@ -282,7 +284,7 @@
     .nav_dropdown {
         position: absolute;
         width: 105%;
-        top: 70px;
+        top: 60px;
         z-index: 999;
         background: #fff;
         -webkit-box-shadow: 0 22px 20px rgba(0, 0, 0, 0.05);
